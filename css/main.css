@@ -24,6 +24,7 @@ img {
 .wrapper {
   max-width: 1400px;
   margin: 0 auto;
+  margin: 1rem;
 }
 
 header {
@@ -56,6 +57,27 @@ footer {
 
 
 /* Default styling for all screens ends here */
+h2 {
+  font-size: 2.5rem;
+}
+
+.price, .cart-button {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.money-tree h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.also-browsed h3, .people-saying h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
 
 /* Add media query for tablet */
 
