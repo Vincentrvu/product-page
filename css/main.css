@@ -79,6 +79,13 @@ h4 {
   font-size: 1.5rem;
 }
 
+.browsed-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
 /* Add media query for tablet */
 
 
