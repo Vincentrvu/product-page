@@ -61,6 +61,14 @@ main img {
   border-radius: 10px;
 }
 
+section {
+  margin: 1rem 0;
+}
+
+article {
+  margin: 2rem 0;
+}
+
 h2 {
   font-size: 2.5rem;
   margin: 0;
@@ -77,21 +85,48 @@ h2 {
 
 h4 {
   font-size: 1rem;
+  margin: 0;
 }
 
 .money-tree h3 {
   font-weight: bold;
   font-size: 1.25rem;
+  margin: 0;
 }
 
 .also-browsed h3, .people-saying h3 {
   font-weight: normal;
   font-size: 1.5rem;
+  margin: 1rem 0;
 }
 
 .image-row {
   display: flex;
   gap: 1rem;
+}
+
+.details-care dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(4 auto);
+  gap: 1rem;
+  margin: 0;
+}
+
+.included ul {
+  margin: 0;
+}
+
+.details-care dl dd {
+  margin: 0 auto 0 0;
+}
+
+.details-care img {
+  margin-top: 1rem;
+}
+
+.plant-description p {
+  margin-top: 0;
 }
 
 .browsed-grid {
@@ -101,15 +136,13 @@ h4 {
   gap: 1rem;
 }
 
-.details-care dl {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: repeat(4 auto);
-  gap: 1rem;
+.browsed-boxes {
+  display: flex;
+  flex-direction: column;
 }
 
-.details-care dl dd {
-  margin: 0 auto 0 0;
+.browsed-boxes p:first-child {
+  color: #664A30;
 }
 
 /* Add media query for tablet */
