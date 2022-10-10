@@ -57,12 +57,22 @@ footer {
 
 
 /* Default styling for all screens ends here */
-h2 {
-  font-size: 2.5rem;
+main img {
+  border-radius: 10px;
 }
 
-.price, .cart-button {
+h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.product-title p, .cart-button {
   font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.product-title {
+  margin: 1rem 0;
 }
 
 h4 {
@@ -79,11 +89,22 @@ h4 {
   font-size: 1.5rem;
 }
 
+.image-row {
+  display: flex;
+  gap: 1rem;
+}
+
 .browsed-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
+}
+
+.details-care dl {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 /* Add media query for tablet */
