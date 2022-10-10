@@ -100,6 +100,23 @@ h4 {
   margin: 1rem 0;
 }
 
+.cart-button {
+  background-color: #664A30;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.cart-button p {
+  margin: 0;
+  text-align: center;
+}
+
+.cart-button a {
+  color: white;
+  text-decoration: none;
+}
+
 .image-row {
   display: flex;
   gap: 1rem;
@@ -168,10 +185,9 @@ h4 {
 }
 
 /* Add media query for tablet */
-@media only screen and (min-width:43rem) {
+@media only screen and (min-width:44rem) {
   .wrapper {
-    margin: 0 7rem;
-    
+    margin: 0 8rem;
   }
 }
 
