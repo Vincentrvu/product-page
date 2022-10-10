@@ -115,6 +115,11 @@ h4 {
 
 .included ul {
   margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+.details-care dl dt {
+  font-weight: bold;
 }
 
 .details-care dl dd {
@@ -163,7 +168,12 @@ h4 {
 }
 
 /* Add media query for tablet */
-
+@media only screen and (min-width:43rem) {
+  .wrapper {
+    margin: 0 7rem;
+    
+  }
+}
 
 
 
