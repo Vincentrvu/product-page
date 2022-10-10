@@ -141,8 +141,25 @@ h4 {
   flex-direction: column;
 }
 
-.browsed-boxes p:first-child {
-  color: #664A30;
+.browsed-boxes p {
+  margin: 0;
+}
+
+.browsed-boxes .browsed-text {
+  margin-top: 0.25rem;
+}
+
+.browsed-boxes .browsed-text p:first-child {
+  font-weight: bold;
+}
+
+.people-saying blockquote {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #F5E6D7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Add media query for tablet */
