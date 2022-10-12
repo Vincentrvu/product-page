@@ -122,6 +122,12 @@ h4 {
   gap: 1rem;
 }
 
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(4 auto);
+  grid-template-rows: 1fr;
+}
+
 .details-care dl {
   display: grid;
   grid-template-columns: auto auto;
@@ -194,3 +200,13 @@ h4 {
 
 
 /* Add media query for desktop */
+@media only screen and (min-width:74rem) {
+  .wrapper {
+    margin: 0 10rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+}
