@@ -98,11 +98,18 @@ h2 {
 .product-text a {
   background-color: #664A30;
   padding: 1rem;
+  border: 5px solid #664A30;
   border-radius: 10px;
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
   text-align: center;
+  transition-duration: .25s;
+}
+
+.product-text a:hover {
+  background-color: #F5E6D7;
+  color: #664A30;
 }
 
 h4 {
