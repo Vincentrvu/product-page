@@ -206,10 +206,6 @@ h4 {
   margin-top: 0.25em;
 }
 
-.browsed-boxes .browsed-text p:first-child {
-  font-weight: bold;
-}
-
 .people-saying .people-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -225,6 +221,16 @@ h4 {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+}
+
+figcaption a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+figcaption a:hover {
+  text-decoration: underline;
 }
 
 /* Add media query for tablet */
